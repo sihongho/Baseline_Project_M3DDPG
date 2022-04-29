@@ -36,3 +36,15 @@ Coop&Comp s8 - "simple_world_comm" (No Formal Name), Non-zerosum Comp, SameR Coo
 ![S7](/experiments/plots/s7.png)
 
 ![S8](/experiments/plots/s8.png)
+
+## Produce testing model
+
+`python train.py --scenario simple_spread --save-dir models/s3/m3_s3_mmmddpg_mmmddpg_e20/ --exp-name m3_s3_e20 --benchmark`
+
+`python train.py --scenario simple_adversary --save-dir models/s4/m3_s4_mmmddpg_mmmddpg_e20/ --exp-name m3_s4_e20 --benchmark`
+
+`python train.py --scenario simple_crypto --save-dir models/s5/m3_s5_mmmddpg_mmmddpg_e20/ --exp-name m3_s5_e20 --benchmark`
+
+`python train.py --scenario simple_tag --save-dir models/s7/m3_s7_mmmddpg_mmmddpg_e20/ --exp-name m3_s7_e20 --benchmark`
+
+`python train.py --scenario simple_world_comm --save-dir models/s8/m3_s8_mmmddpg_mmmddpg_e20/ --exp-name m3_s8_e20 --benchmark`
