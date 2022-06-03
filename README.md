@@ -39,12 +39,19 @@ Coop&Comp s8 - "simple_world_comm" (No Formal Name), Non-zerosum Comp, SameR Coo
 
 ## Produce testing model
 
-`python train.py --scenario simple_spread --save-dir models/s3/m3_s3_mmmddpg_mmmddpg_e20/ --exp-name m3_s3_e20 --benchmark`
 
-`python train.py --scenario simple_adversary --save-dir models/s4/m3_s4_mmmddpg_mmmddpg_e20/ --exp-name m3_s4_e20 --benchmark`
+`python train.py --scenario simple_reference --load-name models/s1/m3_s1_mmmddpg_mmmddpg_e20/model-59000 --exp-name m3_s1_e20 --good-policy mmmddpg --bad-policy mmmddpg --benchmark`
 
-`python train.py --scenario simple_crypto --save-dir models/s5/m3_s5_mmmddpg_mmmddpg_e20/ --exp-name m3_s5_e20 --benchmark`
+`python train.py --scenario simple_speaker_listener --load-name models/s2/m3_s2_mmmddpg_mmmddpg_e20/model-59000 --exp-name m3_s2_e20 --good-policy mmmddpg --bad-policy mmmddpg --benchmark`
 
-`python train.py --scenario simple_tag --save-dir models/s7/m3_s7_mmmddpg_mmmddpg_e20/ --exp-name m3_s7_e20 --benchmark`
+`python train.py --scenario simple_spread --load-name models/s3/m3_s3_mmmddpg_mmmddpg_e20/model-59000 --exp-name m3_s3_e20 --good-policy mmmddpg --bad-policy mmmddpg --benchmark`
 
-`python train.py --scenario simple_world_comm --save-dir models/s8/m3_s8_mmmddpg_mmmddpg_e20/ --exp-name m3_s8_e20 --benchmark`
+`python train.py --scenario simple_adversary --load-name models/s4/m3_s4_mmmddpg_mmmddpg_e20/model-59000 --exp-name m3_s4_e20 --good-policy mmmddpg --bad-policy mmmddpg --benchmark`
+
+`python train.py --scenario simple_crypto --load-name models/s5/m3_s5_mmmddpg_mmmddpg_e20/model-59000 --exp-name m3_s5_e20 --good-policy mmmddpg --bad-policy mmmddpg --benchmark`
+
+`python train.py --scenario simple_push --load-name models/s6/m3_s6_mmmddpg_mmmddpg_e20/model-59000 --exp-name m3_s6_e20 --good-policy mmmddpg --bad-policy mmmddpg --benchmark`
+
+`python train.py --scenario simple_tag --load-name models/s7/m3_s7_mmmddpg_mmmddpg_e20/model-59000 --exp-name m3_s7_e20 --good-policy mmmddpg --bad-policy mmmddpg --benchmark`
+
+`python train.py --scenario simple_world_comm --load-name models/s8/m3_s8_mmmddpg_mmmddpg_e20/model-59000 --exp-name m3_s8_e20 --good-policy mmmddpg --bad-policy mmmddpg --benchmark`
