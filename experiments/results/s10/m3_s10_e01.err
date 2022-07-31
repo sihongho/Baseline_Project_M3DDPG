@@ -1,0 +1,40 @@
+nohup: ignoring input
+2022-07-30 10:38:05.900632: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2022-07-30 10:38:06.541546: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: Quadro RTX 6000 major: 7 minor: 5 memoryClockRate(GHz): 1.77
+pciBusID: 0000:01:00.0
+totalMemory: 23.65GiB freeMemory: 23.47GiB
+2022-07-30 10:38:06.645984: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:897] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-07-30 10:38:06.647002: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 1 with properties: 
+name: Quadro RTX 6000 major: 7 minor: 5 memoryClockRate(GHz): 1.77
+pciBusID: 0000:21:00.0
+totalMemory: 23.65GiB freeMemory: 23.49GiB
+2022-07-30 10:38:06.902281: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:897] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-07-30 10:38:06.904187: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 2 with properties: 
+name: Quadro RTX 6000 major: 7 minor: 5 memoryClockRate(GHz): 1.77
+pciBusID: 0000:4b:00.0
+totalMemory: 23.65GiB freeMemory: 23.49GiB
+2022-07-30 10:38:06.998095: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:897] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-07-30 10:38:06.999083: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 3 with properties: 
+name: Quadro RTX 6000 major: 7 minor: 5 memoryClockRate(GHz): 1.77
+pciBusID: 0000:4c:00.0
+totalMemory: 23.65GiB freeMemory: 23.49GiB
+2022-07-30 10:38:07.009491: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1, 2, 3
+2022-07-30 10:38:08.108043: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-07-30 10:38:08.108090: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 2 3 
+2022-07-30 10:38:08.108095: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y Y Y 
+2022-07-30 10:38:08.108098: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N Y Y 
+2022-07-30 10:38:08.108101: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 2:   Y Y N Y 
+2022-07-30 10:38:08.108104: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 3:   Y Y Y N 
+2022-07-30 10:38:08.108256: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 22757 MB memory) -> physical GPU (device: 0, name: Quadro RTX 6000, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2022-07-30 10:38:08.285352: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 22776 MB memory) -> physical GPU (device: 1, name: Quadro RTX 6000, pci bus id: 0000:21:00.0, compute capability: 7.5)
+2022-07-30 10:38:08.558906: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 22776 MB memory) -> physical GPU (device: 2, name: Quadro RTX 6000, pci bus id: 0000:4b:00.0, compute capability: 7.5)
+2022-07-30 10:38:08.732580: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 22776 MB memory) -> physical GPU (device: 3, name: Quadro RTX 6000, pci bus id: 0000:4c:00.0, compute capability: 7.5)
+2022-07-30 11:34:48.810925: E tensorflow/stream_executor/cuda/cuda_driver.cc:965] failed to alloc 1073741824 bytes on host: CUresult(304)
+2022-07-30 11:34:48.810992: W ./tensorflow/core/common_runtime/gpu/cuda_host_allocator.h:40] could not allocate pinned host memory of size: 1073741824
+2022-07-30 11:34:49.100448: E tensorflow/stream_executor/cuda/cuda_driver.cc:965] failed to alloc 966367744 bytes on host: CUresult(304)
+2022-07-30 11:34:49.100508: W ./tensorflow/core/common_runtime/gpu/cuda_host_allocator.h:40] could not allocate pinned host memory of size: 966367744
+2022-07-30 11:34:49.379968: E tensorflow/stream_executor/cuda/cuda_driver.cc:965] failed to alloc 869731072 bytes on host: CUresult(304)
+2022-07-30 11:34:49.380021: W ./tensorflow/core/common_runtime/gpu/cuda_host_allocator.h:40] could not allocate pinned host memory of size: 869731072
+2022-07-30 11:34:49.674441: E tensorflow/stream_executor/cuda/cuda_driver.cc:965] failed to alloc 782758144 bytes on host: CUresult(304)
+2022-07-30 11:34:49.674494: W ./tensorflow/core/common_runtime/gpu/cuda_host_allocator.h:40] could not allocate pinned host memory of size: 782758144
